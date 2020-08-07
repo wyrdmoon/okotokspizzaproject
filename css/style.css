@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#grid-container {
+    display: grid; 
+}
+#header {
+    background-color: tomato;
+}
+#content {
+    background-color: gold;
+}
+#footer {
+    background-color: tomato;
+}
