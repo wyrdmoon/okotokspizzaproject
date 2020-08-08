@@ -3,15 +3,13 @@
     padding: 0;
 }
 
-#grid-container {
-    display: grid; 
-}
-#header {
-    background-color: tomato;
-}
-#content {
-    background-color: gold;
+#header{
+     width: 100%;
+    background-color: darkred;
 }
 #footer {
-    background-color: tomato;
+    width: 100%;
+    background-color: lightgreen;
+    font-weight: bold;
 }
+
