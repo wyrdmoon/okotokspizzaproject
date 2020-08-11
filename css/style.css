@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+#grid-container {
+    display:grid; 
+}
+
 #header{
      width: 100%;
     background-color: darkred;
@@ -12,4 +16,5 @@
     background-color: lightgreen;
     font-weight: bold;
 }
+
 
