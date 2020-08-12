@@ -1,8 +1,39 @@
 #grid-container {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr))
+    }
+
+.menu-item-pizza {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-style: Arial;
+    }
+
+.menu-item-pasta {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-style: Arial;
 }
 
-#header {
+.menu-item-burger {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.menu-item-salad {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header { 
+    display: grid;
     width: 100%;
     text-align: center;
     display: inline-block;
@@ -10,12 +41,16 @@
 }
 #content {
     display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    align-items: center;
     width: 100%;
     text-align: center;
     display: inline-block;
     margin: 0 auto;
 }
 #footer {
+    display: grid;
     width: 100%;
     text-align: center;
     display: inline-block;
