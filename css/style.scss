@@ -1,0 +1,30 @@
+#grid-container {
+    display: grid;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+#content {
+    display: grid;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+#footer {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+#video {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto; 
+}
+
