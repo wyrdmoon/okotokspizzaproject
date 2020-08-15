@@ -53,20 +53,27 @@
         opacity: 0;
         left: 0;
         min-height: 15vh;
-
-       
-        
     }
 }
-
-
+#watermark {
+    width: 50%;
+   
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    z-index: -1;
     
+  
+    
+    opacity: .15;
+}
 .menu-item-pizza {
     display: grid;
     justify-items: center;
     align-items: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+   
     }
 
 .menu-item-pasta {
@@ -91,6 +98,8 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 #header { 
     font-family: 'Roboto', sans-serif;
@@ -138,7 +147,7 @@
             align-items: center;
             grid-template-columns: 4fr 2fr;
             background-color: darkred;
-        }
+           }
    }
 
 @media only screen and (min-width: 1020px){
